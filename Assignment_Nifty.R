@@ -207,3 +207,12 @@ hist(pca_result$x[, 2],
      xlab = "PC2",
      col = "lightgreen",
      border = "black")
+
+# Analysis supporting this question:
+# The linear regression analysis conducted on the dataset suggests that the selected predictor variables (DJI, Vix, SP500, Brent_Crude, USD_INR, and CBOE_10Y) collectively 
+# have a strong relationship with the 'Nifty' index. The model indicates a high Adjusted R-squared value of approximately 92.31%, suggesting that around 92.31% of the 
+# variability in the 'Nifty' index is explained by these predictor variables. Additionally, several predictor variables have statistically significant coefficients 
+# (such as Vix, SP500, USD_INR, and CBOE_10Y) based on their t-values and associated p-values.
+
+# Therefore, the analysis supports the idea that changes in the selected economic indicators and market indices (DJI, Vix, SP500, Brent_Crude, USD_INR, and CBOE_10Y) 
+# are associated with fluctuations in the 'Nifty' index, providing a reasonable explanation for the variations observed in the 'Nifty' index over the analyzed time frame.
